@@ -3,6 +3,8 @@ import random
 from hangman_words import *
 from hangman_art import *
 
+print(logo)
+
 word_to_guess = random.choice(word_list)
 print(word_to_guess)
 
