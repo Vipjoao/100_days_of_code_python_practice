@@ -16,8 +16,6 @@ def main():
             if coffee_machine.is_resource_sufficient(menu.find_drink(user_order)):
                 if money_machine.make_payment(menu.find_drink(user_order).cost):
                     coffee_machine.make_coffee(menu.find_drink(user_order))
-                else:
-                    print(f"Sorry, you don't have enough money! Here's your money back!")
         elif user_order == "report":
             coffee_machine.report()
             money_machine.report()
