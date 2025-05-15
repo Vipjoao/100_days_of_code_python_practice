@@ -5,6 +5,7 @@ import random
 
 tim = t.Turtle()
 screen = t.Screen()
+t.colormode(255)
 
 angles = (0, 90, 180, 270) # Tuples are different from lists, tuples can't be changed
 def random_path_drawing():
