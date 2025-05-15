@@ -6,7 +6,7 @@ import random
 tim = Turtle()
 screen = Screen()
 
-angles = (0, 90, 180, 270)
+angles = (0, 90, 180, 270) # Tuples are different from lists, tuples can't be changed
 def random_path_drawing():
     tim.pensize(7)
     for _ in range(500):
