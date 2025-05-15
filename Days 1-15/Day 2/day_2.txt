@@ -1,0 +1,9 @@
+Day 2
+
+In this day we learned how to use python's mathematical
+operations and how to print them. We've also learned how
+the python datatypes work and how to print each mathematical
+operation with different values by using 'round', 'type' etc.
+
+The challenge of today was a script to calculate based on the
+inputs, how much each person would pay of a bill.
