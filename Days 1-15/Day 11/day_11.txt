@@ -1,0 +1,4 @@
+Day 11
+
+In this day we've utilized what we learned on the last days
+to create a blackjack game, and that was the challenge.

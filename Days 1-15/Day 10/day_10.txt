@@ -1,0 +1,8 @@
+Day 10
+
+In this day we learned about 'docstrings' to explain the
+functions. We also learned about functions with outputs
+(returns) and functions with multiple returns.
+
+The challenge was to make a simple calculator with the 4 basic
+operations (+,-,*,/).

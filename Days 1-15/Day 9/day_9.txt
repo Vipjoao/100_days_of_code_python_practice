@@ -1,0 +1,9 @@
+Day 9
+
+In this day we learned how 'Dictionaries' worked in python
+and how there are nested lists and dictionaries. Those
+being:
+- Lists inside lists
+- Lists inside dictionaries
+- Dictionaries inside lists
+- Dictionaries inside dictionaries

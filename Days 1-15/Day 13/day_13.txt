@@ -1,0 +1,6 @@
+Day 13
+
+In this day we learned the basics of error handling and
+debugging.
+
+There was no challenge in this day.

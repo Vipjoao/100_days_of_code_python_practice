@@ -1,0 +1,12 @@
+Day 15
+
+In this day we created a virtual coffee machine, where it only
+accepted coins.
+Then basically we would choose how many coins we'd want to put in the
+machine, and choose between three options 'latte', 'capuccino' and 'espresso'.
+Where each option would subtract a certain number of resources from the
+machine.
+There were also functions for:
+Creating reports to see the resources inside the machine
+A function where if you typed 'off' you'd turn the machine off and end the application
+And a function that returned the change from the inputed money.

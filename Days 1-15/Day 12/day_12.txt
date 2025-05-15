@@ -1,0 +1,9 @@
+Day 12
+
+In this day we learned about block scope and the difference
+between local and global scopes.
+
+The challenge of this day was to make a 'Guess the Number' game
+where the user has to guess a number between 1 and 100. And there
+are two different difficulties that imply on the number of tries
+the user have to guess the number.

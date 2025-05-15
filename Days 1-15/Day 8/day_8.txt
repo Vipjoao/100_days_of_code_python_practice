@@ -1,0 +1,5 @@
+Day 8
+
+In this day we learned how to input values into functions.
+
+The challenge was to create a caesar cypher encoder/decoder.
