@@ -1,0 +1,9 @@
+Day 16
+
+In this day we learned the importance and usefulness of
+importing python packages, as well as import 3rd party packages.
+
+The challenge was to re-create the virtual coffee machine from Day 15
+by using a pseudo package provided by the teacher.
+
+(Pseudo Package: a bunch of files that simulate an imported package)

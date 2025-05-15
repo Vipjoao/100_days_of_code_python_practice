@@ -1,0 +1,4 @@
+Day 17
+
+In this day we built a quiz with different classes that we
+built with help from the teacher.
