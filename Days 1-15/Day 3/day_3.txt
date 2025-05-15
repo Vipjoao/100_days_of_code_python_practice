@@ -1,0 +1,10 @@
+Day 3
+
+In this day we learned how the conditional statements
+in python works, such as: 'if', 'elif' and 'else'.
+And we've learned how to use the modulo operator '%' to
+get the surplus value from a division.
+
+The challenge of today was a basic treasure island with
+a few 'if' statements to determine the results of each
+decision that the user made.
