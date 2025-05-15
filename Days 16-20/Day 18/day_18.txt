@@ -1,0 +1,10 @@
+Day 18
+
+In this day we learned the difference between tuples and lists.
+
+This day also had multiple challenges involving the turtle python package.
+The purpose of each challenge can be found in the first line of each individual file.
+
+There was an extra challenge to reproduce a painting from 'Damien Hirst' that is
+literally a bunch of dots, by using the 'colorgram' package. But this challenge
+was skipped because it was too easy and unnecessary.
