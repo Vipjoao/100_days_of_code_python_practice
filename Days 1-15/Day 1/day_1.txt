@@ -1,0 +1,9 @@
+Day 1
+
+In this day we learned how to create variables,
+how to print text and how to input values from the
+user. We also learned how to indent lines in a
+single string by using '\n'.
+
+The challenge of today was to bring together some
+strings and string variables on a print.
