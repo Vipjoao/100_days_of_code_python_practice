@@ -1,0 +1,7 @@
+Day 4
+
+In this day we learned how to create modules and lists, as
+well as how to use the randomisation package from python.
+
+The challenge of today was a heads or tails game that
+we made based off of what we learned.
