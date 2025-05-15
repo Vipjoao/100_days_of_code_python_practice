@@ -1,0 +1,5 @@
+Day 19
+
+In this day, we learned about Event Listeners and High Order Functions.
+With that new knowledge, we were able to create a turtle race game
+and an 'etch a sketch' painting board.
