@@ -1,1 +1,0 @@
-Day 6 learning were mostly made in Reeborg's World python training robot.
