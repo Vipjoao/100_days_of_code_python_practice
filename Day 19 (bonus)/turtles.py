@@ -74,6 +74,6 @@ class Turtles(Turtle):
                     print(f"You won! The {winning_color} turtle is best!")
                     return False
                 else:
-                    print(f"You lost! The {winning_color} won!")
+                    print(f"You lost! {winning_color.title()} won!")
                     return False
         return True
