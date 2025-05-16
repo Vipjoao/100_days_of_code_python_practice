@@ -1,0 +1,4 @@
+Day 19 (bonus)
+
+This bonus file is to remake the turtle race game in a new better way,
+using a new class instead of everything in the same file.
