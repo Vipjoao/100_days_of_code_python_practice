@@ -25,7 +25,7 @@ def race(turtle_colors):
 
     while is_race_on:
         for tur in turtle_list:
-            random_distance = random.randint(0, 10)
+            random_distance = random.randint(1, 10)
             tur.forward(random_distance)
             if tur.xcor() >= 340:
                 is_race_on = False
