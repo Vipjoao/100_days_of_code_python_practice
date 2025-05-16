@@ -1,0 +1,4 @@
+Day 24
+
+The first challenge was to improve our snake game by saving a file with the
+user's high score.
