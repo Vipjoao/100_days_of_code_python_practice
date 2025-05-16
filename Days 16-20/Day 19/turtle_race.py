@@ -8,7 +8,7 @@ colors = ["red", "orange", "yellow", "green", "blue", "purple"]
 
 def race(turtle_colors):
     is_race_on = False
-    tutle_list = []
+    turtle_list = []
     x_axis = 320
     y_axis = 75
     for i in range(len(turtle_colors)):
@@ -18,13 +18,13 @@ def race(turtle_colors):
         new_turtle.penup()
         new_turtle.goto(-x_axis, y_axis)
         y_axis -= 30
-        tutle_list.append(new_turtle)
+        turtle_list.append(new_turtle)
 
     if user_bet:
         is_race_on = True
 
     while is_race_on:
-        for tur in tutle_list:
+        for tur in turtle_list:
             random_distance = random.randint(0, 10)
             tur.forward(random_distance)
             if tur.xcor() >= 340:
