@@ -1,0 +1,6 @@
+Days 20 and 21
+
+Both these days were necessary to create the Snake Game Project.
+
+On day 21, we learned about Class Inheritance and List/Tuple slicing.
+
