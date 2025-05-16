@@ -6,6 +6,18 @@ STARTING_X_AXIS = 320
 STARTING_Y_AXIS = 75
 TURTLE_OFFSET = 30
 
+def create_dashed_lines(tur, x_axis, y_axis):
+    for _ in range(2):
+        tur.teleport(x_axis, y_axis)
+        tur.left(180)
+        for _ in range(40):
+            tur.pendown()
+            tur.forward(10)
+            tur.penup()
+            tur.forward(10)
+        x_axis = x_axis * -1
+        y_axis = y_axis * -1
+
 class Turtles(Turtle):
     def __init__(self):
         super().__init__()
@@ -27,15 +39,27 @@ class Turtles(Turtle):
 
     def create_track(self):
         new_turtle = Turtle(shape="turtle")
-        new_turtle.pencolor("black")
+        new_turtle.color("black", "white")
         new_turtle.penup()
-        new_turtle.goto(-(self.x_axis + TURTLE_OFFSET),self.y_axis + TURTLE_OFFSET)
+        new_turtle.goto(-(self.x_axis + TURTLE_OFFSET),self.y_axis + TURTLE_OFFSET / 2)
         new_turtle.pendown()
-        new_turtle.goto(self.x_axis + TURTLE_OFFSET,self.y_axis + TURTLE_OFFSET)
+        new_turtle.goto(self.x_axis + TURTLE_OFFSET,self.y_axis + TURTLE_OFFSET / 2)
         new_turtle.penup()
-        new_turtle.goto(self.x_axis + TURTLE_OFFSET, -(self.y_axis + TURTLE_OFFSET))
+        new_turtle.left(180)
+        new_turtle.goto(self.x_axis + TURTLE_OFFSET, -(self.y_axis + TURTLE_OFFSET / 2))
         new_turtle.pendown()
-        new_turtle.goto(-(self.x_axis + TURTLE_OFFSET + 20), -(self.y_axis + TURTLE_OFFSET))
+        new_turtle.goto(-(self.x_axis + TURTLE_OFFSET + 20), -(self.y_axis + TURTLE_OFFSET / 2))
+        new_turtle.penup()
+        create_dashed_lines(new_turtle, -(self.x_axis + TURTLE_OFFSET + 10), self.y_axis - (TURTLE_OFFSET / 2))
+        create_dashed_lines(new_turtle, -(self.x_axis + TURTLE_OFFSET + 10), self.y_axis - (TURTLE_OFFSET * 1.5))
+        new_turtle.penup()
+        new_turtle.goto(-(self.x_axis + TURTLE_OFFSET + 10), 0)
+        new_turtle.left(180)
+        for _ in range(40):
+            new_turtle.pendown()
+            new_turtle.forward(10)
+            new_turtle.penup()
+            new_turtle.forward(10)
 
     def turtles_run(self):
         for tur in self.turtles_list:
