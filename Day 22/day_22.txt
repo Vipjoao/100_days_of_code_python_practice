@@ -1,0 +1,4 @@
+Day 22
+
+I have skipped day 22 because it had no lessons, and it was only to recreate
+the game Pong by using what we have learned this far.
